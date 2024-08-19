@@ -264,15 +264,15 @@ h6 {
 --------------------------------------------------------------*/
 #home {
   width: 100%;
-  height: 100vh;
+  height: 75vh;
   background: url("../img/hero-bg.jpg") top center;
   background-size: cover;
 }
 #home:before {
   content: "";
-  background: rgba(5, 13, 24, 0.3);
+  background: rgb(0 0 0 / 50%);
   position: absolute;
-  bottom: 0;
+  bottom: 25vh;
   top: 0;
   left: 0;
   right: 0;
